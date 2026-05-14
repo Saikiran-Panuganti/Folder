@@ -1,7 +1,7 @@
 pipeline{
     agent any
     stages{
-        stage("Git Checkout"){
+        stage("Git Checkout new"){
             steps{
                 echo "Repository checked out successfully."
                 sh 'pwd'

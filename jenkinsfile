@@ -1,0 +1,11 @@
+pipeline{
+    agent any
+    stages{
+        stage("Git Checkout"){
+            steps{
+                echo "This is my first Git checkout from github"
+                git branch: 'main', url: 'https://github.com/Saikiran-Panuganti/Folder.git'
+            }
+        }
+    }
+}

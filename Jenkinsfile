@@ -3,7 +3,7 @@ currentBuild.displayName = "Cart-Service-#"+currentBuild.number
 pipeline{
     agent any
     stages{
-        stage("Git Checkout new trigger????"){
+        stage("Git Checkout new trigger????.."){
             steps{
                 echo "Repository checked out successfully."
                 sh 'pwd'

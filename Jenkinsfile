@@ -6,6 +6,7 @@ pipeline{
                 echo "Repository checked out successfully."
                 sh 'pwd'
                 sh 'ls -lrt'
+                echo "Tested Checkout moving to net step"
             }
         }
     }

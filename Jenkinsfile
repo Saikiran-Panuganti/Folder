@@ -1,3 +1,5 @@
+currentBuild.displayName = "Cart-Service-#"+currentBuild.number
+
 pipeline{
     agent any
     stages{
